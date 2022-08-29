@@ -30,6 +30,7 @@ const dest = async function *(source) {
 	yield "end";
 };
 
+// Convert the string payload into a stream
 const source = Readable.from(Buffer.from(`
 {
 	"description": "⚡️⚡️",
